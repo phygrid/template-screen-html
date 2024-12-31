@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "title": "Example schema",
+    "properties": {
+        "productName": {
+            "type": "string",
+            "title": "Product name",
+            "minLength": 1
+        },
+        "productPrice": {
+            "type": "string",
+            "title": "Product price",
+            "minLength": 1
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "grid-html-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "scripts": {
+    "start": "http-server -o",
+    "build": "rimraf build && mkdir build && rsync -av --exclude-from=.gitignore . ./build && omg app build",
+    "pub": "omg app publish",
+    "upload-description": "omg app upload-description"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@ombori/ga-cli": "^3.92.11",
+    "http-server": "^14.1.1",
+    "rimraf": "^5.0.7",
+    "rsync": "^0.6.1"
+  }
+}

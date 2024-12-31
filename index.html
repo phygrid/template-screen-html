@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <link rel="manifest" href="manifest.json" />
+    <title>React App</title>
+    <link href="./animate.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: arial, sans-serif;
+        }
+
+        .name {
+            font-size: 80px;
+            margin: 10px;
+            color: rgb(33, 104, 204);
+        }
+
+        .price {
+            font-size: 60px;
+            margin: 10px;
+            color: rgb(55, 55, 55);
+        }
+    </style>
+</head>
+<body>
+<div class="animated infinite wobble delay-2s slow">
+    <h1 class="name">{{txt:productName:The product name}}</h1>
+    <h2 class="price">{{txt:productPrice:The product price}}</h2>
+</div>
+<script src="apply-settings.js"></script>
+</body>
+</html>
